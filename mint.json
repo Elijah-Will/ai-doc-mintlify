@@ -1,12 +1,12 @@
 {
     "name": "Digital Yalo",
     "logo": {
-      "light": "logo/download-removebg-preview.png",
-      "dark": "logo/download-removebg-preview.png",
+      "light": "/mintlify-app/logo/download-removebg-preview.png",
+      "dark": "/mintlify-app/logo/download-removebg-preview.png",
       "href": "https://digitalyalo.com/"
     },
     "openapi": "openapi.yaml",
-    "favicon": "favicon-16x16-removebg-preview.png",
+    "favicon": "/mintlify-app/favicon-16x16-removebg-preview.png",
     "colors": {
       "primary": "#353022",
       "light": "#D8A790",
@@ -39,15 +39,15 @@
     "navigation": [
       {
         "group": "Digital Yalo",
-        "pages": ["pages/documentation", "pages/website-documentation"]
+        "pages": ["/mintlify-app/pages/documentation", "/mintlify-app/pages/website-documentation"]
       },
       {
         "group": "Content Authoring",
-        "pages": ["pages/acf", "pages/asana-tasks"]
+        "pages": ["/mintlify-app/pages/acf", "/mintlify-app/pages/asana-tasks"]
       },
       {
         "group": "Settings",
-        "pages": ["pages/faqs"]
+        "pages": ["/mintlify-app/pages/faqs"]
       }
     ],
     "footerSocials": {
