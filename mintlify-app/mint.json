@@ -1,0 +1,64 @@
+{
+    "name": "Digital Yalo",
+    "logo": {
+      "light": "logo/download-removebg-preview.png",
+      "dark": "logo/download-removebg-preview.png",
+      "href": "https://digitalyalo.com/"
+    },
+    "openapi": "openapi.yaml",
+    "favicon": "favicon-16x16-removebg-preview.png",
+    "colors": {
+      "primary": "#353022",
+      "light": "#D8A790",
+      "dark": "#764B36",
+      "background": {
+        "light": "#F5F5F5",
+        "dark": "#1C1C1C"
+      }
+    },
+    "topbarLinks": [
+      {
+        "name": "Contact Us",
+        "url": "mailto:info@digitalyalo.com"
+      }
+    ],
+    "anchors": [
+      {
+        "name": "FAQs",
+        "icon": "question",
+        "color": "#353022", 
+        "url": "faqs"
+      },
+      {
+        "name": "Contact Us",
+        "icon": "envelope",
+        "color": "#353022", 
+        "url": "mailto:info@digitalyalo.com"
+      }
+    ],
+    "navigation": [
+      {
+        "group": "Digital Yalo",
+        "pages": ["pages/documentation", "pages/website-documentation"]
+      },
+      {
+        "group": "Content Authoring",
+        "pages": ["pages/acf", "pages/asana-tasks"]
+      },
+      {
+        "group": "Settings",
+        "pages": ["pages/faqs"]
+      }
+    ],
+    "footerSocials": {
+      "github": "https://github.com/yalo-dev",
+      "facebook": "https://www.facebook.com/digitalyalo",
+      "twitter": "https://twitter.com/digitalyalo",
+      "linkedin": "https://www.linkedin.com/company/digital-yalo/mycompany/"
+    },
+    "integrations": {
+      "intercom": "abcdefz",
+      "frontchat": "abcdez"
+    }
+  }
+  
